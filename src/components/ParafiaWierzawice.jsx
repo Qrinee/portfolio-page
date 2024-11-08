@@ -5,7 +5,7 @@ export default function ParafiaWierzawice() {
   return (
     <>
         <h1 className='thin'>Parafia Wierzawice</h1>
-        <p>Parafia Matki Bożej Wspomożenia Wiernych w Wierzawicach – parafia rzymskokatolicka, znajdująca się w archidiecezji przemyskiej, w dekanacie Leżajsk I.</p>
+        <p>Parafia Matki Bożej Wspomożenia Wiernych w Wierzawicach – Roman Catholic parish located in the Archdiocese of Przemyśl, within the Leżajsk I Deanery.</p>
         <video src={video} autoPlay muted loop  className='video'></video>
         <a href='https://wierzawice.przemyska.pl/' target='_blank'>
             <button className='btn'>Watch Demo</button>
