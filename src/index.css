@@ -1,0 +1,184 @@
+body{
+  margin: 0;
+  animation: page 15s infinite alternate ease-in-out; 
+}
+
+
+.flex{
+  display: flex;
+}
+
+.vid{
+  border-radius: 30px;
+}
+
+.logo{
+  margin: 20px;
+  margin-right: 40px;
+}
+
+.thin{
+  font-weight: 100;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 15vh;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.788);
+}
+
+@font-face {
+  font-family: sf;
+  src: url('./assets/fonts/SFPRODISPLAYMEDIUM.OTF');
+}
+
+@font-face {
+  font-family: sf-bold;
+  src: url('./assets/fonts/SFPRODISPLAYBOLD.OTF');
+}
+
+@font-face {
+  font-family: sf-regular;
+  src: url('./assets/fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+@font-face {
+  font-family: sf-heavy-italic;
+  src: url('./assets/fonts/SFPRODISPLAYHEAVYITALIC.OTF');
+}
+
+@font-face{
+  font-family: sf-light;
+  src: url('./assets/fonts/SFPRODISPLAYLIGHTITALIC.OTF');
+}
+
+.menu{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  box-shadow: 0px 0px 25px -18px rgba(66, 68, 90, 0.521);
+  font-family: sf-regular;
+
+}
+
+@keyframes page{
+  0%{
+    background-color: rgb(255, 246, 246);
+  }
+  20%{
+    background-color: rgb(246, 255, 246);
+  }
+  40%{
+    background-color: rgb(246, 255, 255);
+  }
+  60%{
+    background-color: rgb(249, 246, 255);
+  }
+  80%{
+    background-color: rgb(255, 246, 250);
+  }
+  100%{
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+
+.year{
+  opacity: 40%;
+}
+.project{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 20px;
+  padding: 15px 20px;
+  width: 200px;
+  transition: 0.2s all;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+.project:hover{
+  -webkit-box-shadow: 0px 0px 20px -11px rgba(66, 68, 90, 0.527);
+  -moz-box-shadow: 0px 0px 20px -11px rgba(66, 68, 90, 0.527);
+  background-color: white;
+  box-shadow: 0px 0px 20px -15px rgba(66, 68, 90, 0.699);
+  transform: scale(1.05);
+}
+
+
+.projects{
+  padding-top: 30vh;
+}
+
+.app{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.text-projects{
+  font-size: 30px;
+  margin: 15px;
+  font-family: sf-bold;
+}
+
+.state{
+  font-size: 25px;
+  font-weight: 100;
+  opacity: 50%;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.social{
+  cursor: pointer;
+  transition: 0.2s all;
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: sf-regular;
+  color: rgb(80, 80, 80);
+}
+
+.social:hover{
+  color: rgb(0, 0, 0);
+}
+
+.socials{
+  margin-top: 20px;
+  display: flex;
+}
+
+@keyframes mainblock{
+  0%{
+    opacity: 0;
+    transform: translateY(-11px);
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+
+.main-block{
+  animation: mainblock 0.5s 1 ease-in-out;
+  width: 100%;
+  height: 100vh;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+body{
+  font-family: sf;
+  background-color: #f8faff;
+  color: rgb(32, 32, 32);
+}
