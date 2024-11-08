@@ -26,11 +26,10 @@
     width: 40vw;
 }
 
-/* HTML:  */
 .loader {
-    width: 80px;
+    width: 100px;
     aspect-ratio: 4;
-    --_g: no-repeat radial-gradient(circle closest-side,#000 90%,#0000);
+    --_g: no-repeat radial-gradient(circle closest-side,#0000008c 90%,#000000cb);
     background: 
       var(--_g) 0%   50%,
       var(--_g) 50%  50%,
