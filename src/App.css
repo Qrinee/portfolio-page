@@ -3,11 +3,47 @@
     border-radius: 50px;
     margin-top: 30px;
     width: 40vw;
+    animation: video 1s 1 ease-in-out;
+}
+
+@keyframes video{
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 100%;
+    }
 }
 
 .margin{
     height: 10vh;
 }
+
+.load{
+    aspect-ratio: 1.45/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+
+/* HTML:  */
+.loader {
+    width: 80px;
+    aspect-ratio: 4;
+    --_g: no-repeat radial-gradient(circle closest-side,#000 90%,#0000);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 100%;
+    animation: l7 1s infinite linear;
+  }
+  @keyframes l7 {
+      33%{background-size:calc(100%/3) 0%  ,calc(100%/3) 100%,calc(100%/3) 100%}
+      50%{background-size:calc(100%/3) 100%,calc(100%/3) 0%  ,calc(100%/3) 100%}
+      66%{background-size:calc(100%/3) 100%,calc(100%/3) 100%,calc(100%/3) 0%  }
+}
+
 
 .btn{
     color: rgb(48, 138, 255);
