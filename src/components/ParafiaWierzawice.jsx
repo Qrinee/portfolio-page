@@ -14,7 +14,7 @@ export default function ParafiaWierzawice() {
       <h1 className='thin'>Parafia Wierzawice</h1>
       <p>Parafia Matki Bożej Wspomożenia Wiernych w Wierzawicach – Roman Catholic parish located in the Archdiocese of Przemyśl, within the Leżajsk I Deanery.</p>
       
-      <div className='load' style={{ display: load ? 'none' : 'block' }}>
+      <div className='load' style={{ display: load ? 'none' : 'flex' }}>
         <div className="loader"></div>
       </div>
       
