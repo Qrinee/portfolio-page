@@ -32,6 +32,7 @@ export default function Page({children}) {
       <div className='main-block'>
             {children}
       </div>
+      
     </div>
   )
 }
