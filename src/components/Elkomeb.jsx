@@ -13,7 +13,7 @@ export default function Elkomeb() {
       <h1 className='thin'>Elkomeb</h1>
       <p>Elkomeb Grzegorz Moskal is a company specializing in providing modern solutions in the fields of photovoltaics, air conditioning, computers, and furniture production.</p>
       
-      <div className='load' style={{ display: load ? 'flex' : 'flex' }}>
+      <div className='load' style={{ display: load ? 'none' : 'flex' }}>
         <div className="loader"></div>
       </div>
       
