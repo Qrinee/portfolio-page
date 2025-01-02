@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import video from '../assets/videos/Untitled.mp4'
+import video from '../assets/videos/smartni.mp4'
 
 export default function Smartni() {
   const [load, setLoad] = useState(false)
@@ -17,7 +17,7 @@ export default function Smartni() {
         <div className="loader"></div>
       </div>
       
-      {/* <video 
+      <video 
         src={video} 
         onLoadedData={handleVideoLoad} 
         autoPlay 
@@ -26,7 +26,7 @@ export default function Smartni() {
         className='video' 
         style={{ display: load ? 'block' : 'none' }}
       ></video>
-       */}
+      
       <a href='https://smartni.com.pl/' target='_blank' rel='noopener noreferrer'>
         <button className='btn'>Watch Demo</button>
       </a>

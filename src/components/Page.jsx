@@ -25,7 +25,7 @@ export default function Page({children}) {
                 </div>
             </a>
             <div className='text-projects'>Projects:</div>
-            <Project name={"Smartni"} year={"2024"} icon={smartni}/>
+            <Project name={"Smartni"} year={"2025"} icon={smartni}/>
             <Project name={"Mebloza"} year={"2024"} icon={mebloza} />
             <Project name={"Elkomeb"} year={"2024"} icon={elkomeb} />
             <Project name={"Parafia Wierzawice"} year={"2024"} icon={parafia} />

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import video from '../assets/videos/Untitled.mp4'
+import video from '../assets/videos/mebloza.mp4'
 
 export default function Mebloza() {
   const [load, setLoad] = useState(false)
@@ -17,7 +17,7 @@ export default function Mebloza() {
         <div className="loader"></div>
       </div>
       
-      {/* <video 
+      <video 
         src={video} 
         onLoadedData={handleVideoLoad} 
         autoPlay 
@@ -26,7 +26,7 @@ export default function Mebloza() {
         className='video' 
         style={{ display: load ? 'block' : 'none' }}
       ></video>
-       */}
+      
       <a href='https://mebloza.com/' target='_blank' rel='noopener noreferrer'>
         <button className='btn'>Watch Demo</button>
       </a>
