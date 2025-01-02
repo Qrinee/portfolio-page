@@ -12,6 +12,8 @@ import LikiaBeauty from "./components/LikiaBeauty";
 import Page from './components/Page';
 import NianiawUK from './components/NianiaWUK';
 import MobileMenu from './components/MobileMenu';
+import Mebloza from './components/Mebloza';
+import Smartni from './components/Smartni';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,13 @@ const router = createBrowserRouter([
   {
     path: "/likiabeauty",
     element: <LikiaBeauty/>
+  },{
+    path: "/mebloza",
+    element: <Mebloza/>
+  },
+  {
+    path: "/smartni",
+    element: <Smartni/>
   }
 ]);
 
